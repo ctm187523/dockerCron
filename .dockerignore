@@ -1,0 +1,11 @@
+#archivos que queremos ignorar
+#el DockerFile no lo necesitamos ya una vez creada la imagen
+#este archivo .dockerignore tampoco lo incluimos
+
+
+node_modules/
+Dockerfile 
+
+.git
+.dockerignore 
+.gitignore
